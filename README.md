@@ -20,10 +20,10 @@ An implementation of the strategic board game **Quoridor** with an AI opponent u
 
 ## Key Algorithms
 - **Minimax**:
-- Recursively explores game states to maximize AI's advantage while minimizing the opponent's.
+  - Recursively explores game states to maximize AI's advantage while minimizing the opponent's.
   
 - **Alpha-Beta Pruning**:
-- Reduces search space by pruning non-optimal branches.
+  - Reduces search space by pruning non-optimal branches.
 
 - **BFS for Pathfinding**:
-- Calculates the shortest path to the goal (used in heuristic evaluation)
+  - Calculates the shortest path to the goal (used in heuristic evaluation)
