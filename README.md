@@ -19,11 +19,11 @@ An implementation of the strategic board game **Quoridor** with an AI opponent u
   - ASCII-based board display with walls (`|`, `—`) and player tokens (`1`, `2`).  
 
 ## Key Algorithms
-- **Minimax:
+- **Minimax**:
 - Recursively explores game states to maximize AI's advantage while minimizing the opponent's.
   
-- **Alpha-Beta Pruning:
+- **Alpha-Beta Pruning**:
 - Reduces search space by pruning non-optimal branches.
 
-- **BFS for Pathfinding:
+- **BFS for Pathfinding**:
 - Calculates the shortest path to the goal (used in heuristic evaluation)
